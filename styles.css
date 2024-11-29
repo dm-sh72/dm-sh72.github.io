@@ -76,7 +76,7 @@ button:active {
     height: 200%;
     aspect-ratio: 16/9;
     background: left / contain no-repeat url("img/thumb.jpg");
-    filter: blur(10px);
+    filter: blur(5px);
     position: absolute;
     left: -50%;
     top: -50%;
@@ -197,6 +197,7 @@ button:active {
 .services__descriptionButton {
     background: transparent;
     min-width: 70px;
+    font-weight: bolder;
     color: rgba(0, 0, 0, 50%);
 }
 .services__descriptionButton._active {
@@ -252,7 +253,7 @@ dialog {
 }
 
 dialog::backdrop {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 
 dialog[open] {
